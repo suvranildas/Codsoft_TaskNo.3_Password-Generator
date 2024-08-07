@@ -33,7 +33,7 @@ def generate_password():
 
 # Create the main window
 window = tk.Tk()
-window.title("Password Converter")
+window.title("Password Generator")
 window.geometry("400x300") 
 # Create and configure widgets
 length_label = tk.Label(window, text="Password Length:")
